@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F&O Restaurant</title>
+        <meta name="description" content="F&O Restaurant owned by a man and his son,Francis and Obed, who moved to the United States to pursue their shared dream of owning a restaurant.">
+        <meta name="author" content="F&O Restaurant">
+        <!--Open Graph protocol-->
+        <meta property="og:title" content="F&O Restaurant">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://f&orestaurant.com">
+        <meta property="og:description" content="F&O Restaurant owned by a man and his son,Francis and Obed, who moved to the United States to pursue their shared dream of owning a restaurant.">
+        <meta property="og:image" content="./Images/logo.png">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <!--logo here-->
+            <h1 class="sitename">F&O Restaurant</h1>
+           <!--<a href="index.html">
+                <img src="./Images/logo.png">
+            </a>-->
+        </header>
+        <nav>
+            <!--navigation here-->
+            <ul class="nar-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#our-menu"class="mnew">Menu</a></li>
+                <li><a href="#book"class="bookus">Book</a></li>
+                <li><a href="#about" class="aboutus">About</a></li>
+            </ul>
+        </nav>
+        <div class="divider" style="width: 100%; height: 80px;"></div>
+        <main>
+          <section>
+            <article class="first-message">
+                <img src="./Images/drink2.png" alt="first-message">
+                <p class="message">Eat  |  Drink  |  Relax.</p>
+            </article>
+          </section>
+
+          <div class="divider2"></div>
+
+          <!--<h2 class="new-menuheader">Our new men</h2>-->
+
+          <!--<div class="divider3" style="width: 100%; height: auto;"></div>-->
+            <section>
+                <article class="menu-items">
+                    <div class="items">
+                        <img src="./Images/cheese egg burger.png">
+                        <h3>Cheese Egg Burger</h2><br>
+                        <p>Burger Bread with Cheese, Egg, burger<br>
+                        meat, lettuce, onion and tomatoes,</p><br>
+                        <p id="IT-price">Price: 10.00$</p>
+                    </div>
+                    <div class="items">
+                        <img src="./Images/egg burger.png">
+                        <h3>Egg Burger</h3><br>
+                        <p>Burger Bread with Egg, burger<br>
+                        meat, lettuce, onion and tomatoes,</p><br>
+                        <p id="IT-price">Price: 20.00$</p>
+                    </div>
+                    <div class="items">
+                        <img src="./Images/cheese burger.png">
+                        <h3>Cheese Burger</h3><br>
+                        <p>Burger Bread with Cheese, burger meat,<br>
+                        lettuce, onion and tomatoes</p><br>
+                        <p id="IT-price">Price: 25.00$</p>
+                    </div>
+                   
+                </article>
+            </section>
+           <div class="divider4" style="width: 100%; height: 100px;"></div>
+
+           <!--New Menu-->
+           <div id="our-menu" class="mnew"></div>
+           <div class="new-menu">
+                <div class="newfood">
+                    <img src="./Images/food1.png">
+                    <h3>Italian Food</h3><br>
+                    <p>A delicious rice preparation<br> with herbs and spices. Available in <br> veg and non-veg</p><br>
+                    <span>Call Now</span>
+                </div>
+                <div class="newfood">
+                    <img src="./Images/food2.png">
+                    <h3>Greek Food</h3><br>
+                    <p>A delicious rice preparation<br> with herbs and spices. Available in <br> veg and non-veg</p><br>
+                    <span>Download Menu</span>
+                </div>
+                <div class="newfood">
+                    <img src="./Images/food3.png">
+                    <h3>Turkish Food</h3><br>
+                    <p>A delicious rice preparation<br> with herbs and spices. Available in <br> veg and non-veg</p><br>
+                    <span>See More Images</span>
+                </div>
+           </div>
+
+           <!--Contact form-->
+           <div id="book" class="bookus"></div>
+           <div class="home-form">
+            <div class="image-bg">
+              <!--<img src="./Images/banner.jpg" alt="Banner Image">-->
+              <div class="overlay">
+                
+        
+                <div class="form-container">
+                    <p>Submit your contact info to get access to limited-time promos and menu specials.<br>
+                        For reservations or event inquiries kindly Call or WhatsApp the number below.<br>
+                        
+                        Located @ Adjen-Kotoku, Accra<br>
+                        
+                        info@f&orestaurant.com<br>
+                        
+                        +321 21 385 53505.</p>
+                  <form action="./php/process_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+        
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter your phone number">
+                    
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!--<div class="divider2"></div>-->
+           <section>
+            <article class="open-hours">
+                <p class="message">Opening Hours<br>
+                    <span id="open">Dine In, Take Away or Delivery<br> Everyday: Morining 8am - Midnight 12am</span>
+                </p>
+                
+            </article>
+          </section>
+            <!--<div class="divider2"></div>-->
+        </main>
+        <div id="about" class="aboutus"></div>
+        <footer>
+           <article id="container">
+            <div class="footlogo">
+                <img src="./Images/logo_footer.png" alt="logo_footer">
+            </div>
+            <div class="contact-details">
+                <h3>Contact</h3><br>
+                <p>info@f&orestaurant.com<br>
+                   +321 21 385 53505<br>Located @ Adjen-Kotoku, Accra</p>
+            </div>
+            <div class="copyright">
+               &copy; 2024 F&O Restaurant | All rights rights reserved.
+            </div>
+           </article>
+        </footer>
+    </body>
+</html>
